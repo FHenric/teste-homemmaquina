@@ -1,10 +1,10 @@
-.chart-section{
+#chart-section{
     background-color: #fff;
     height:400px;
     border-radius: 15px;
     border:1px solid rgba(151, 151, 151, 0.5);
     margin: 30px 30px 30px 0;
 }
-.chart-section h3{
+#chart-section h3{
     margin: 18px 20px;
 }

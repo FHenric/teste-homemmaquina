@@ -1,11 +1,11 @@
-.results-section{
+#results-section{
     background-color: #fff;
     border-radius: 15px;
     border:1px solid rgba(151, 151, 151, 0.5);
     margin: 30px 0;
     
 }
-.results-section h3{
+#results-section h3{
     margin-left: 20px;
 }
 #table{

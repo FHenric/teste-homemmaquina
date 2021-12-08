@@ -34,14 +34,14 @@ function App() {
       <Header />
       <main>
         <Aside />
-        <section className="main-section">
+        <section id ="main-section">
           <h2>COVID-19</h2>
           <p>
             Boletins informativos e casos do coranvirus por município por dia
           </p>
           <Form/>
           
-          <section className='chart-results-section'>
+          <section id ='chart-results-section'>
             <Chart items={casos}/>
 
             <Results items={casos}/>

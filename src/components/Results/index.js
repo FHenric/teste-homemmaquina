@@ -5,7 +5,7 @@ import './results.css'
 export default ({items}) => {
 
     return (
-        <section className='results-section'>
+        <section id ='results-section'>
             <h3>Lista de casos por municípios</h3>
 
             <div id='table'>
@@ -18,7 +18,7 @@ export default ({items}) => {
                     <p id='line'></p>
 
                         {items.map((item, key) => (
-                            <p className='date'>{item.date}</p> 
+                            <p>{item.date}</p> 
                         ))}
                 </div>
 
@@ -32,7 +32,7 @@ export default ({items}) => {
 
                     {items.map((item, key) => (
                     
-                        <p className='state'>{item.state}</p>
+                        <p>{item.state}</p>
                         
                      
                 ))}
@@ -48,7 +48,7 @@ export default ({items}) => {
                     
                     {items.map((item, key) => (
                     
-                        <p className='city'>{item.city}</p>
+                        <p>{item.city}</p>
                         
                       
                 ))}
@@ -64,7 +64,7 @@ export default ({items}) => {
                     
                     {items.map((item, key) => (
                     
-                        <p className='case-number'>{item.new_confirmed}</p>
+                        <p>{item.new_confirmed}</p>
                         
                       
                 ))}

@@ -7,7 +7,7 @@ import './form.css'
 const Form = () => {
 
     return (
-        <section className='form-section'>
+        <section id ='form-section'>
             <h2>Relatório de casos</h2>
             <form> 
                 <div id='input-section'>

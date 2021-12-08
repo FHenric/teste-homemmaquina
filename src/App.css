@@ -12,12 +12,12 @@ main{
   display: flex;
   height: 100%;
 }
-.main-section{
+#main-section{
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.274);
   background-color: #F4F5F7 ;
   width: 100%;
   padding-left: 35px;
 }
-.chart-results-section{
+#chart-results-section{
   display: flex;
 }

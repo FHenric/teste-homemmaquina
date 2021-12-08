@@ -20,8 +20,9 @@ export default ({items}) => {
     }
   
       const [data, setData] = useState(casePerCity)
+      
     return (
-        <section className='chart-section'>
+        <section id ='chart-section'>
             <h3>Distribuição de casos de COVID-19</h3>
             
             <Chart
