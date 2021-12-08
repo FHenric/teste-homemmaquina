@@ -1,0 +1,27 @@
+.results-section{
+    background-color: #fff;
+    border-radius: 15px;
+    border:1px solid rgba(151, 151, 151, 0.5);
+    margin: 30px 0;
+    
+}
+.results-section h3{
+    margin-left: 20px;
+}
+#table{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.col{
+    margin:20px;
+}
+.table-head{
+    margin-bottom:25px;
+    font-size: 20px;
+}
+#line{
+    border-bottom:1px solid rgba(151, 151, 151, 0.5);
+}
+
