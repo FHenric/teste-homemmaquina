@@ -4,18 +4,7 @@ import { useState } from 'react';
 
 import './form.css'
 
-const Form = ({show}) => {
-    const handleClick = (e) => {
-        e.preventDefault();
-
-        show = true
-
-
-        // const formData= new FormData(e.target)
-        // const dado = Object.fromEntries(formData)
-
-        // console.log(dado)
-    }
+const Form = () => {
 
     return (
         <section className='form-section'>
@@ -41,7 +30,7 @@ const Form = ({show}) => {
                     </div>
                 </div>
                 <div>
-                    <input id='button' onClick={handleClick} type='submit' value='Mostrar Dados'></input>
+                    <input id='button' type='submit' value='Mostrar Dados'></input>
                 </div>
             </form>
         </section>

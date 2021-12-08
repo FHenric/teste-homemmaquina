@@ -4,7 +4,7 @@ import './aside.css'
 const Aside = () => {
     return (
         <aside>  
-            <p><a href="http://localhost:3000" target="_blank" rel="noreferrer" >Início</a></p>
+            <p><a href="https://teste-homemmaquina.vercel.app" target="_blank" rel="noreferrer" >Início</a></p>
         </aside>
     )
 }

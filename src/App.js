@@ -1,3 +1,4 @@
+/* eslint-disable react/style-prop-object */
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from "react";
@@ -14,7 +15,6 @@ import Chart from "./components/Chart";
 
 function App() {
   const [casos, setCasos] = useState([]);
-  const [show, setShow] = useState(false);
 
   useEffect(() => {
     const loadData = async () => {
@@ -37,10 +37,10 @@ function App() {
         <section className="main-section">
           <h2>COVID-19</h2>
           <p>
-            Boletins informativos e casos do coranvirus por monicípio por dia
+            Boletins informativos e casos do coranvirus por município por dia
           </p>
           <Form/>
-
+          
           <section className='chart-results-section'>
             <Chart items={casos}/>
 
